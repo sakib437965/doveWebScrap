@@ -15,3 +15,9 @@ download chrome web driver from the link " https://chromedriver.storage.googleap
 In doveSelenium.py file change the "path" variable with the path of chorme webdriver where it is located in your system for example in the code change the below line with the path of chromedriver.exe file
 path = "C:/Users/HP/Desktop/Study/chromedriver" 
 execute the code and it will open chrome browser window and maximize it and start scrapping data
+
+#How to run BeautifulSoup code
+clone the project to your local repository
+open the project in IDE
+open terminal in IDE, change directory where scraper is located in local system using "cd" command. For example 'cd "path to scraper"
+run scraper with command python soup.py
