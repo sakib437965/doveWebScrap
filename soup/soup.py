@@ -10,7 +10,9 @@ import re
 import ssl
 import time
 
+# variable to calculate the time it takes soupd to scrape data
 start_time=time.time()
+
 ssl._create_default_https_context = ssl._create_unverified_context
 
 
@@ -48,4 +50,6 @@ df=pd.DataFrame(dict)
 print(df)
 # storing the scraped data in csv file
 df.to_csv('bs4.csv')
+
+# printing the time
 print("--- %s seconds ---" % (time.time() - start_time))
